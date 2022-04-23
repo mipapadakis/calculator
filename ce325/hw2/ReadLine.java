@@ -30,8 +30,8 @@ public class ReadLine {
 		
 		System.out.println("Expression:\n" + head.toString());
 		
+		//createPNG(head);
 		head.toDotString();
-		createPNG(head);
 		
 		System.out.println("Result: " + Double.toString(head.calculate(head)));
     }
